@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Demo QA" verbose="1" parallel="tests">
+
+    <parameter name="useCloud" value="false"/>
+    <parameter name="cloudUserName" value="rahmanww"/>
+    <parameter name="cloudAccessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
+    <parameter name="useGrid" value="false"/>
+    <parameter name="os" value="Mac"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserVersion" value="46"/>
+
+
+
+
+    <!--now you can create multiple target urls within each unit test by just adding TestNG url parameter and
+    String url parameter to the classes test methods (Many multiple unit tests for each scenario)
+    you dont have to create multiple runner.xml files for each different pages.
+    now you can add the page object model to the new Base-->
+
+
+
+
+
+
+
+</suite>
+
